@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+#entire-container {
+	width: 1000px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+header {
+	background-color: white;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:35px;
+}
+
+h2 {
+	width: 1000px;
+	border-bottom-style: solid;
+	border-bottom-color: green;
+	border-bottom-width: 1.5px;
+	padding-bottom: 10px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+.header {
+	display: inline-block;
+}
+#papayapineapple {
+	width: 30px;
+}
+#name {
+	padding-top: 20px;
+}
+#hamburger-container {
+	float:right;
+}
+#hamburger {
+	width: 30px;
+	align-items: right;
+}
+
+.about {
+	display: inline-block;
+}
+#maya-picture {
+	padding-top: 20px;
+}
+#about {
+	width: 470px;
+	padding-left: 30px;
+}
+.container {
+	display: inline-block;
+}
+#aakash-ganga-pic {
+	width: 200px;
+}
