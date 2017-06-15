@@ -1,6 +1,171 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        line-height: 100%;
+        vertical-align: middle;
+        margin-bottom: 0px;
+    }
+    h2 {
+        width: 1000px;
+        border-bottom-style: solid;
+        border-bottom-color: green;
+        border-bottom-width: 1.5px;
+        padding-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    p {
+        font-family: 'Lora', serif;
+        font-size: 14px;
+    }
+    a {
+        text-decoration: none;
+        color: orange;
+    }
+    .header {
+        display: inline-block;
+    }
+    #papayapineapple {
+        width: 25px;
+        line-height: 100%;
+    }
+    #case-studies-header {
+        margin-top: 60px;
+    }
+    #quote {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;        
+        color: green;
+        text-align: middle;
+        width: 400px;
+        margin-left: 35px;
+}    
+    #aakash-ganga-pic {
+    width: 480px;
+    }
+    .case-studies-button {
+        border: 2px solid orange;
+        background-color: white;
+    }
+    #contact-me-container {
+        margin-top: 60px;
+    }
+    .icon {
+        width: 30px;
+    }
+    #icons {
+        text-align: center;
+        padding-top: 30px;
+    }
+        #burger {
+        float: right;
+        vertical-align: bottom;
+        text-align: right;
+        line-height: 150%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .burger {
+        display: inline-block;
+        border: 0;
+        background: none;
+        outline: 0;
+        padding: 0;
+        cursor: pointer;
+        border-bottom: 4px solid currentColor;
+        width: 28px;
+        transition: border-bottom 1s ease-in-out;
+        -webkit-transition: border-bottom 1s ease-in-out;
+    }
+    .burger:before {
+        content: "";
+        display: block;
+        border-bottom: 4px solid currentColor;
+        width: 100%;
+        margin-bottom: 5px;
+        transition: transform 0.5s ease-in-out;
+        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+    .burger:after {
+        content: "";
+        display: block;
+        border-bottom: 4px solid currentColor;
+        width: 100%;
+        margin-bottom: 5px;
+        transition: transform 0.5s ease-in-out;
+        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+}
+.burger-check {
+    display: none;
+}
+.burger-check:checked ~ .burger {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.navigation {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+.burger-check:checked ~ .navigation {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in-out;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    body {
+        background-color: pink;
+    }
+}
+
+
+@media (min-width: 1000px) {
     body {
         background-color: white;
     }
@@ -98,8 +263,8 @@
         text-align: center;
         padding-top: 30px;
     }
-    #burger{
-        float:right;
+    #burger {
+        float: right;
         text-align: right;
         line-height: 150%;
         font-family: 'Roboto', sans-serif;
@@ -138,54 +303,52 @@
         transition: transform 0.5s ease-in-out;
         -webkit-transition: -webkit-transform 0.5s ease-in-out;
     }
-    }
-    .burger-check {
-        display: none;
-    }
-    .burger-check:checked ~ .burger {
-        border-bottom: 4px solid transparent;
-        transition: border-bottom 0.8s ease-in-out;
-        -webkit-transition: border-bottom 0.8s ease-in-out;
-    }
-    .burger:before {
-        transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    }
-    .burger:after {
-        transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    }
-    .navigation {
-        overflow: hidden;
-        max-height: 0;
-        transition: max-height 0.5s ease-in-out;
-    }
-    .burger-check:checked ~ .navigation {
-        max-height: 500px;
-        transition: max-height 0.5s ease-in-out;
+}
+.burger-check {
+    display: none;
+}
+.burger-check:checked ~ .burger {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.navigation {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+.burger-check:checked ~ .navigation {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in-out;
 }
 a:link {
-    color: white; 
-    background-color: transparent; 
+    color: white;
+    background-color: transparent;
     text-decoration: none;
 }
-
 a:visited {
     background-color: transparent;
     text-decoration: none;
 }
-
 a:hover {
-    color: red;    background-color: transparent;
+    color: red;
+    background-color: transparent;
     text-decoration: none;
 }
-
 a:active {
-
     background-color: transparent;
     text-decoration: underline;
+}
 }
