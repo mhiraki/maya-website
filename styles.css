@@ -12,7 +12,7 @@
         margin-bottom: 0px;
     }
     h2 {
-        width: 500px;
+        width: 100%;
         border-bottom-style: solid;
         border-bottom-color: green;
         border-bottom-width: 1.5px;
@@ -31,6 +31,9 @@
     a {
         text-decoration: none;
         color: orange;
+    }
+    article {
+        margin-top: 50px;
     }
     #entire-container {
         width: 90%%;
@@ -157,15 +160,11 @@
         width: 100%;
         margin-left: 20px;
     }
-    #case-studies-header {
-        margin-top: 60px;
-    }
     #aakash-ganga-pic {
         width: 100%;
     }
     .container {
         display: inline-block;
-        width: 26%;
         vertical-align: top;
         padding: 30px;
     }
@@ -237,7 +236,6 @@
     }
     .about {
         display: inline-block;
-        margin-right: 30px;
     }
     #maya-picture {
         padding-top: 20px;
@@ -249,19 +247,21 @@
         padding-left: 30px;
         padding-top: 35px;
         vertical-align: top;
+        height: 630px;
     }
     #quote {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         color: green;
-        text-align: middle;
-        width: 400px;
-        margin-left: 35px;
-        margin-right:35px;
+        /*text-align: middle;*/
+        width: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+
     }
     .container {
         display: inline-block;
-        width: 25%;
+        width: 33%;
         vertical-align: top;
         padding: 30px;
     }
@@ -274,6 +274,7 @@
     }
     #contact-me-container {
         width: 100%;
+        margin-top: 100px;
     }
     .icon {
         width: 30px;
@@ -297,6 +298,7 @@
   /* non-critical appearance styles */
   list-style: none;
   background: #111;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation Menu - List items */
