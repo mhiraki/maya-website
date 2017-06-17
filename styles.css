@@ -70,7 +70,7 @@
         color: green;
         text-align: middle;
         width: 90%;
-        margin-left: 20px;
+        margin-left: px;
         margin-right: 20px;
     }
     #aakash-ganga-pic {
@@ -135,21 +135,16 @@
         display: none;
     }
     .burger-check:checked ~ .burger {
-        border-bottom: 4px solid transparent;
-        transition: border-bottom 0.8s ease-in-out;
-        -webkit-transition: border-bottom 0.8s ease-in-out;
+         border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
     }
-    .burger:before {
+    .burger-check:before {
         transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     }
-    .burger:after {
+    .burger-check:after {
         transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     }
     .navigation {
         overflow: hidden;
@@ -234,7 +229,7 @@
     #about {
         width: 45%;
         padding-left: 30px;
-        padding-top: 35px;
+        padding-top: 40px;
         vertical-align: top;
     }
     #quote {
@@ -316,21 +311,16 @@
         display: none;
     }
     .burger-check:checked ~ .burger {
-        border-bottom: 4px solid transparent;
-        transition: border-bottom 0.8s ease-in-out;
-        -webkit-transition: border-bottom 0.8s ease-in-out;
+           border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
     }
-    .burger:before {
-        transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    .burger-check:before {
+         transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
     }
-    .burger:after {
-        transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    .burger-check:after {
+       transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
     }
     .navigation {
         overflow: hidden;
@@ -499,22 +489,17 @@
     .burger-check {
         display: none;
     }
-    .burger-check:checked ~ .burger {
-        border-bottom: 4px solid transparent;
-        transition: border-bottom 0.8s ease-in-out;
-        -webkit-transition: border-bottom 0.8s ease-in-out;
+    /*.burger-check:checked ~ .burger {
+          border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    }*/
+    .burger-check:before {
+           transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
     }
-    .burger:before {
-        transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    }
-    .burger:after {
-        transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
-        transition: transform 0.5s ease-in-out;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    .burger-check:after {
+      transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
     }
     .navigation {
         overflow: hidden;
