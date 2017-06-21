@@ -52,6 +52,9 @@
         width: 95%;
         padding-bottom: 30px;
     }
+    .about {
+        width: 100%
+    }
     #about {
         width: 95%;
         vertical-align: top;
@@ -147,7 +150,7 @@
         padding-bottom: 30px;
     }
     #about {
-        width: 45%;
+        width: 54%;
         padding-left: 30px;
         padding-top: 40px;
         vertical-align: top;
@@ -243,7 +246,7 @@
         padding-bottom: 30px;
     }
     #about {
-        width: 45%;
+        width: 54%;
         padding-left: 30px;
         padding-top: 35px;
         vertical-align: top;
