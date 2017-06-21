@@ -222,6 +222,7 @@
     p {
         font-family: 'Lora', serif;
         font-size: 14px;
+        line-height: 1.5;
     }
     a {
         text-decoration: none;
@@ -266,7 +267,8 @@
         display: inline-block;
         width: 32%;
         vertical-align: top;
-        padding: 30px;
+        padding: 20px;
+        padding-top: 30px;
     }
     #aakash-ganga-pic {
         width: 100%;
